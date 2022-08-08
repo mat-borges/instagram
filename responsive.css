@@ -1,0 +1,114 @@
+@media (max-width: 935px){
+    .side-bar{
+        display: none;
+    }
+
+    .menu-top{
+        width: 100%;
+    }
+
+    .menu-top-center{
+        width: 30%
+    }
+
+    .contents{
+        width: 614px;
+    }
+}
+
+@media (max-width: 614px){
+    .menu-top-box{
+        width: 100%;
+    }
+    
+    .menu-top{
+        width: 100%;
+    }
+
+    .menu-top-left{
+        width: fit-content;
+        margin-left: 18px;
+    }
+
+    .menu-top-left img{
+        display: none;
+    }
+
+    .menu-top-center{
+        display:none;
+    }
+
+    .hide-desktop{
+        display: initial;
+    }
+
+    .menu-top-right{
+        width: fit-content;
+        margin-right: 18px;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+
+    .main{
+        width: 100vw;
+    }
+
+    .contents{
+        width: 100vw;
+    }
+
+    .story{
+        width: 100vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: transparent;
+    }
+
+    .arrow-story{
+        display: none;
+    }
+
+    .post{
+        width: 100vw;
+    }
+
+    .post-image{
+        width: 100vw;
+        height: auto;
+    }
+
+    .post-image img{
+        width: 100vw;
+        height: 100vw;
+    }
+
+     .post-image video{
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .menu-bot-mobile{
+        display: initial;
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 1px solid #dedede;
+        z-index: 1;
+
+        position: fixed;
+        bottom: 0;
+    }
+
+    .menu-bot-mobile ion-icon{
+        font-size: 20px;
+    }
+}
